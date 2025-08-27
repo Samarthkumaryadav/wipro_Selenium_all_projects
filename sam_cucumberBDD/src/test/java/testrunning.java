@@ -13,6 +13,6 @@ import io.cucumber.junit.CucumberOptions;
 		                           "json:target/JSON/jsonreport3",
 		                           "junit:target/JUNIT/junitreport3"}
                  )
-public class TestRunner {
+public class testrunning {
 
 }
