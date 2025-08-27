@@ -10,7 +10,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 
-public class AccountActivitySteps {
+public class account {
 	WebDriver driver;
 	@Given("user logged in")
 	public void user_logged_in() {
