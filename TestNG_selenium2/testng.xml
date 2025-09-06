@@ -1,0 +1,47 @@
+
+
+
+<suite name="ParallelSuite" parallel="methods" thread-count="3">
+    <test name="Test">
+    	<classes>
+    	
+    		<class name="testng2.Task6"/>
+    	</classes>
+    	
+    
+    
+    
+    
+    </test>
+    
+    
+    
+    <test name="validtest">
+    		<parameter name="username" value="admin"/>
+    		<parameter name="password" value="admin@123"/>
+    	
+        <classes>
+          
+            <class name="Testing_package.Task4"/>
+            
+        </classes>
+        
+    </test>
+    
+     <test name="invalidtest">
+    		<parameter name="username" value="487434"/>
+    		<parameter name="password" value="29486746"/>
+    	
+        <classes>
+           
+            <class name="Testing_package.Task4"/>
+            
+        </classes>
+        
+    </test>
+    
+    
+    
+</suite>
+
+
